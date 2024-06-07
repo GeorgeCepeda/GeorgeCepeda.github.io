@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 const Navbar = () => {
     const linkClass = ({isActive}) => isActive ?
-    'text-white bg-red-800 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2' : 
+    'text-white bg-red-800 hover:bg-redish-light hover:text-white rounded-md px-3 py-2' : 
     'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2';
     return (
         <nav className="bg-grayish border-b border-indigo-500">
@@ -15,7 +15,7 @@ const Navbar = () => {
             {/*<!-- Logo -->*/}
             <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
               <span className="hidden md:block text-white text-2xl font-bold ml-2"
-                >React Jobs</span
+                >My Portfolio </span
               >
             </NavLink>
             <div className="md:ml-auto">
@@ -26,15 +26,25 @@ const Navbar = () => {
                   >Home
                   </NavLink>
                 <NavLink
-                  to="/AboutME"
+                  to="/about"
                   className={ linkClass }
-                  >Jobs
+                  >About
                   </NavLink>
                 <NavLink
-                  to="/Projects"
+                  to="/portfolio"
                   className={ linkClass }
-                  >Add Job
+                  >Portfolio
                   </NavLink>
+                <NavLink
+                  to="/skills"
+                  className={ linkClass }
+                  > Skills
+                </NavLink>
+                <NavLink
+                  to="/contact"
+                  className={ linkClass }
+                  >Contact
+                </NavLink>
               </div>
             </div>
           </div>

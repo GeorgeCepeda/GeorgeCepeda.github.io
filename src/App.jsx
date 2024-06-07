@@ -8,6 +8,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import MainLayout from './layout/MainLayout'
 import Homepage from './pages/Homepage'
+import NotFoundPage from './pages/NotFoundPage'
+import UnderConstructionPage from './pages/UnderConstructionPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,8 @@ function App() {
     createRoutesFromElements(
       <Route path='/' element={<MainLayout />}>
         <Route index element={<Homepage /> } />
+        <Route path='/about' element={<UnderConstructionPage />} />
+        <Route path='*' element={ <NotFoundPage /> } />
       </Route>
     )
   )
