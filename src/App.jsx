@@ -3,13 +3,11 @@ import {Route,
   createBrowserRouter, 
   createRoutesFromElements, 
   RouterProvider} from 'react-router-dom'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import MainLayout from './layout/MainLayout'
 import Homepage from './pages/Homepage'
 import NotFoundPage from './pages/NotFoundPage'
 import UnderConstructionPage from './pages/UnderConstructionPage'
+import AboutMePage from './pages/AboutMePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +16,10 @@ function App() {
     createRoutesFromElements(
       <Route path='/' element={<MainLayout />}>
         <Route index element={<Homepage /> } />
-        <Route path='/about' element={<UnderConstructionPage />} />
+        <Route path='/about' element={<AboutMePage />} />
+        <Route path='/portfolio' element={<UnderConstructionPage />} />
+        <Route path='/skills' element={<UnderConstructionPage />} />
+        <Route path='/contact' element={<UnderConstructionPage />} />
         <Route path='*' element={ <NotFoundPage /> } />
       </Route>
     )
