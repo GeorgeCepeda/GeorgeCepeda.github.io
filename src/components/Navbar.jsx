@@ -31,9 +31,9 @@ const Navbar = () => {
                   >About
                   </NavLink>
                 <NavLink
-                  to="/portfolio"
+                  to="/project"
                   className={ linkClass }
-                  >Portfolio
+                  >Projects
                   </NavLink>
                 <NavLink
                   to="/skills"

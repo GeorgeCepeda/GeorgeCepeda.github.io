@@ -1,0 +1,43 @@
+[
+    {
+        "name": "JavaScript",
+        "proficiency": "Advanced",
+        "years": 5
+    },
+    {
+        "name": "SQL",
+        "proficiency":"Advanced",
+        "years": 6
+    },
+    {
+        "name": "C#",
+        "proficiency":"Advanced",
+        "years": 8
+    },
+    {
+        "name":"Python",
+        "proficiency":"Intermediate",
+        "years": 6
+    },
+    {
+        "name": "Unity",
+        "proficiency":"Intermediate",
+        "years": 6
+    },
+    {
+        "name": "Git",
+        "proficiency":"Advanced",
+        "years": 10
+    },
+    {
+        "name":"Kubernetes",
+        "proficiency": "Intermediate",
+        "years": 2
+    },
+    {
+        "name": "React",
+        "proficiency":"Intermediate",
+        "years": 2
+    }
+
+]
