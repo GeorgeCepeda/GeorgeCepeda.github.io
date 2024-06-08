@@ -21,7 +21,9 @@ const AboutMe = ({isAboutMe = false}) => {
         ):
         (
             <section className='flex flex-col items-center'>
-                <p className="text-2xl mb-4">I am a passionate software developer dedicated to creating impactful solutions and pushing the boundaries of technology.</p>
+                <p className="text-2xl mb-4">I am a passionate software engineer with expertise in JavaScript, C#, Python, SQL, Kubernetes and Git. 
+        With a strong foundation in computer science and a keen eye for innovation I'm dedicated to crafting scalabe, efficient, and user-friendly solutions.
+        Explore my Journey, skills, and projects.</p>
                 <Link
                     to='/about' 
                     className='text-white bg-red-800 hover:bg-redish rounded-md px-3 py-2 mt-4'>
