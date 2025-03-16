@@ -9,6 +9,8 @@ import NotFoundPage from './pages/NotFoundPage'
 import UnderConstructionPage from './pages/UnderConstructionPage'
 import AboutMePage from './pages/AboutMePage'
 import SkillsPage from './pages/SkillsPage'
+import ProjectsPage from './pages/ProjectsPage'
+import ProjectPage from './pages/ProjectPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,8 +20,10 @@ function App() {
       <Route path='/' element={<MainLayout />}>
         <Route index element={<Homepage /> } />
         <Route path='/about' element={<AboutMePage />} />
-        <Route path='/project' element={<UnderConstructionPage />} />
+        <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/project/:index' element={<ProjectPage/> } />
         <Route path='/skills' element={<SkillsPage />} />
+        <Route path='/experience' element= {<UnderConstructionPage /> } />
         <Route path='/contact' element={<UnderConstructionPage />} />
         <Route path='*' element={ <NotFoundPage /> } />
       </Route>

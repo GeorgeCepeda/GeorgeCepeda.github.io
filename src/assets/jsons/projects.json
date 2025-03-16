@@ -1,0 +1,12 @@
+[
+    {
+        "title":"Personal Portfolio Website",
+        "description":"A dynamic single-page app showcasing my projects and skills, build with React JS and hosted on AWS Amplify. Designed to highlight my cloud and frontend abilities.",
+        "tech":["ReactJS", "AWS Amplify", "React Router", "Tailwind CSS", "JavaScript"],
+        "role": "Developed a responsive portfolio from scratch to demonstrate technical skills and support my AWS certification journey.",
+        "link": "Git Link Here",
+        "demo": "Demo Link Here",
+        "status": "In Progress",
+        "duration": "Ongoing (Started May 2024)"
+    }
+]

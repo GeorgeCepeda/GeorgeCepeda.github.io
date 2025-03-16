@@ -31,7 +31,7 @@ const Navbar = () => {
                   >About
                   </NavLink>
                 <NavLink
-                  to="/project"
+                  to="/projects"
                   className={ linkClass }
                   >Projects
                   </NavLink>
@@ -39,6 +39,11 @@ const Navbar = () => {
                   to="/skills"
                   className={ linkClass }
                   > Skills
+                </NavLink>
+                <NavLink
+                  to="/experience"
+                  className={ linkClass }
+                >Experience
                 </NavLink>
                 <NavLink
                   to="/contact"
