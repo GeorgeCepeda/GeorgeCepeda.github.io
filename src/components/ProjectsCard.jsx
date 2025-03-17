@@ -5,7 +5,7 @@ const ProjectsCard = ({project, index}) => {
     return (
         <div className='bg-grayish-light rounded-xl shadow-md relative'>
             <div className='p-4'>
-                <div className='text-xl text-white my-2'> Project Tile: {project.title} </div>
+                <div className='text-xl text-white my-2'> Project Title: {project.title} </div>
                 <div className='text-xl text-white my-2'> Status: {project.status}</div>
                 <div className='text-xl text-white my-2'> Tech Used: 
                     {project.tech.join(', ')}

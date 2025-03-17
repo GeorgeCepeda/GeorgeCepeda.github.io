@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <div>
       <Hero />
-      <AboutMe />
+      {/*<AboutMe />*/}
       <Projects />
       <Skills />
     </div>

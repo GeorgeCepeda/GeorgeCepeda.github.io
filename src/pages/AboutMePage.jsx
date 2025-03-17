@@ -6,7 +6,7 @@ const AboutMePage = () => {
   return (
     <>
         <AboutMe isAboutMe={true}/>
-        <Skills />
+        
     </>
   )
 }

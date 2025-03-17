@@ -7,7 +7,7 @@ const Skill = ({skill}) => {
             <div className='mb-6'>
                 <div className='text-xl text-white my-2'>Skill Name: {skill.name}</div>
                 <div className='text-xl text-white my-2'>Proficiency Level: {skill.proficiency}</div>
-                <div className='text-xl text-white my-2'>Years Experience: {skill.years}</div>
+                <div className='text-xl text-white my-2'>Years Experience: {skill.years} years</div>
             </div>
         </div>
     </div>

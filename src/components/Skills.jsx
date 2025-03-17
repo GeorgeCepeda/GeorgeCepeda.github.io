@@ -22,7 +22,7 @@ const Skills = ({isSkills = false}) => {
                     <section className='flex flex-col items-center'>
                         <Link
                         to='/skills' 
-                        className='text-white bg-red-800 hover:bg-redish rounded-md px-3 py-2 mt-4'>
+                        className='text-4xl text-white bg-red-800 hover:bg-redish rounded-md px-3 py-2 mt-4'>
                         See my other skills
                         </Link>
                     </section>

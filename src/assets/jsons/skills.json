@@ -1,42 +1,58 @@
 [
     {
-        "name": "JavaScript",
-        "proficiency": "Advanced",
-        "years": 5
+        "name":"AWS",
+        "proficiency":"Beginner",
+        "years":1
     },
     {
-        "name": "SQL",
-        "proficiency":"Advanced",
-        "years": 6
-    },
-    {
-        "name": "C#",
-        "proficiency":"Advanced",
-        "years": 8
-    },
-    {
-        "name":"Python",
+        "name":"Kubernetes",
         "proficiency":"Intermediate",
-        "years": 6
+        "years": 3
     },
     {
-        "name": "Unity",
+        "name": "React JS",
         "proficiency":"Intermediate",
-        "years": 6
+        "years": 4
+    },
+    {
+        "name": "Jenkins",
+        "proficiency":"Intermediate",
+        "years": 3
     },
     {
         "name": "Git",
         "proficiency":"Advanced",
-        "years": 10
+        "years": 11
     },
     {
-        "name":"Kubernetes",
-        "proficiency": "Intermediate",
-        "years": 2
+        "name": "JavaScript",
+        "proficiency":"Advanced",
+        "years": 6
     },
     {
-        "name": "React",
+        "name": "SQL",
+        "proficiency":"Advanced",
+        "years": 7
+    },
+    {
+        "name":"Python",
         "proficiency":"Intermediate",
-        "years": 2
+        "years": 7
+    },
+    {
+        "name": "C#",
+        "proficiency":"Advanced",
+        "years": 9
+    },
+    {
+        "name": "Java",
+        "proficiency":"Advanced",
+        "years":13
+    },
+    {
+        "name": "Unity",
+        "proficiency":"Intermediate",
+        "years": 7
     }
+    
 ]
